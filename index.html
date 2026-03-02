@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Armelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+<!-- header -->
+ <header>
+    <h1>Portfolio de Armelle</h1>
+    <!-- navbar -->
+
+ <nav class="navbar">
+    <!-- menu -->
+    <ul>
+        <div class="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#about">A propos</a></li>
+        <li><a href="#work">Travail</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div>
+</ul>
+    </nav>
+ </header>
+ <!-- HERO SECTION-->
+  <section class="hero" id="hero">
+   <div class="hero-content">
+    <h2>Bienvenue sur mon portfolio</h2>
+    <p>Développeur en devenir, passionné par l'écosystème web et toujours en quête de nouveaux défis techniques pour transformer mon apprentissage en solutions concrètes.</p>
+     <a href="#contact"class="btn-hero">Me decouvrir ici</a>
+     <div>
+    <!-- Ajout d'une video -->
+     <video width="400"controls>
+        <source src="video du projet/mon projet.mp4" type="video/mp4">
+ </video>
+  </section>
+
+  <!-- SECTION ABOUT -->
+   <section id="about">
+    <h2>A propos de moi</h2>
+    <article>
+        <p>Je suis étudiant et passionné par l'informatique, la photographie et le design.</p>
+    </article>
+
+    <h3>Mes competences :</h3>
+    <ul>
+        <li>html</li>
+        <li>la photographie</li>
+    </ul>
+   </section>
+   <!-- SECTION WORK -->
+    <section id="work">
+        <h2>Mes traveaux</h2>
+
+            <table border="1">
+            <tr>
+
+                <th>projet</th>
+                <th>description</th>
+                <th>lien</th>
+            </tr>
+            <tr>
+                <td>site web E-commerce</td>
+                <td>Creation d'un site de vent en ligne</td>
+                <td><a href="projet.html">voir</a></td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- SECTION CV -->
+     <section id="cv">
+        <h2>Mon CV</h2>
+
+        <p>telecharcher mon CV :</p>
+        <a href="CV DARMELLE.pdf"download>Telecharger ici</a>
+
+        <!-- AJOUT D'UN AUDIO -->
+         <h3>Presentation audio :</h3>
+         <audio controls>
+            <source src="presentation audio.mp3"type="audio/mpeg">
+         </audio>
+
+     </section>
+
+     <!-- SECTION CONTACT -->
+      <section id="contact">
+        <h2>contactez-moi</h2>
+
+        <form>
+            <label for="nom">Nom :</label><br>
+            <input type="text"id="nom"name="nom"required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email"id="email"required><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message"name="message"rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+
+      </section>
+
+      <!-- footer -->
+       <footer>
+        <p>&copy; 2026 Armelle - tous droits reserves</p>
+        <p>Email : oussouarmelle34@gmail.com</p>
+       </footer>
+
+       
+</body>
+</html>
