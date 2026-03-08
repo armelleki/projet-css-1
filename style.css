@@ -41,7 +41,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: #f1f5f9;
+    color: #7dca25;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -69,7 +69,7 @@
     color: #cbd5e1;
 }
 
-.btn-hero {
+.button-hero {
     display: inline-block;
     padding: 12px 25px;
     background: #38bdf8;
@@ -80,7 +80,7 @@
     transition: 0.3s;
 }
 
-.btn-hero:hover {
+.button-hero:hover {
     background: #0ea5e9;
 }
 
